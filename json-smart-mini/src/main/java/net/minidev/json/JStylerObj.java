@@ -102,7 +102,7 @@ class JStylerObj {
 				}
 			}
 		} catch (IOException e) {
-			throw new RuntimeException("Impossible Error");
+			throw new RuntimeException("Impossible Error", e);
 		}
 	}
 }
